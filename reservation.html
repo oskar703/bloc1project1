@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Reservation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="responsivereserv.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body class="reservationDetail">
+
+<!-- Header  -->
+
+   <header>
+        <!--<img src="../bloc1p1/img/logo.png" alt="DJ Logo" class="headerLogo">-->
+        <img src="./img/logo.png" alt="dj logo" class="headerLogo">
+        <!--<img src="img/logo.png" alt="DJ Logo" class="headerLogo">-->
+
+        <nav>
+            <ul>
+                <li><a href="index.html" class="headerLink"><b>Home</b></a></li>
+                 <li><a href="legal.html" class="headerLink"><b>About</b></a></li>
+                <li><a href="legal.html" class="headerLink"><b>Contact</b></a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- Main -->
+
+<main class="reservationPageMain">
+
+  <div class="waeverContainer">
+    <h2 class="totalTicketsTitle">Total Billets: <span id="reservedProductCount"></span></h2>
+    <h2 class="totalAmountTitle">Montant Total: <span id="reservedTotalPrice"></span></h2>
+    
+        <div class="acceptedCardsContainer"><label for="fname" class="acceptedCardsLabel"><strong>Cartes Acceptées</strong></label>
+            <i class="fa-brands fa-cc-visa" style="color: blue;"></i>
+            <i class="fa-brands fa-cc-mastercard" style="color: #0080ff;"></i>
+            <i class="fa-brands fa-cc-discover" style="color: orange;"></i>
+            <i class="fa-brands fa-cc-paypal" style="color: bisque;"></i><br>
+        </div>
+  </div>
+
+<!-- Section -->
+
+  <section class="reservationSection">
+    
+          <form class="formPersonalInfo">
+            <h3 class="titleReservation">Adresse de Facturation</h3>
+
+            <label for="fname" class="nameLabel"><i class="fa fa-user"></i> Nom complet</label>
+            <input type="text" id="fname" name="firstname" placeholder="Nom complet" class="nameInputField" required><br>
+           
+            <label for="email" class="emailLabel"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="john@example.com" class="emailInputField" required><br>
+  
+            <label for="adr" class="addressLabel"><i class="fa-solid fa-house"></i>Adresse</label>
+            <input type="text" id="adr" name="address" placeholder="Avenue des Champs-Élysées" class="addressInputField" required><br>
+  
+            <label for="city" class="cityLabel"><i class="fa fa-institution"></i> Ville</label>
+            <input type="text" id="city" name="city" placeholder="Paris" class="cityInputField" required><br>
+  
+            <label for="zip" class="zipcodeLabel"><i class="fa-solid fa-globe"></i>Code postal</label>
+            <input type="text" id="zip" name="code postal" placeholder="75000" class="zipcodeInputField" required>
+          </form>
+
+          <form class="formCreditCardInfo">
+             <h3 class="payTitle">Paiement</h3>
+              
+            
+              <label for="cname" class="cardNameLabel">Nom</label>
+              <input type="text" id="cname" name="cardname" placeholder="John More Doe" class="cardNameInput" required><br> 
+  
+              <label for="ccnum" class="cardNumberLabel">N° de carte</label>
+              <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" class="cardNumberInput" required><br>
+  
+              <label for="expmonth" class="cardExpDateLabel">Emission Carte</label>
+              <input type="text" id="expmonth" name="expmonth" placeholder="September" class="cardExpDateInput" required><br>
+  
+              <label for="expyear" class="cardExpYearLabel">Date d'expiration</label>
+              <input type="text" id="expyear" name="expyear" placeholder="2018" class="cardExpYearInput" required><br>
+  
+              <label for="cvv" class="cardCodeLabel">Code au verso</label>
+              <input type="text" id="cvv" name="cvv" placeholder="352" class="cardCodeInput" required> 
+          </form>
+  
+  </section>
+
+<!-- ASIDE -->
+
+  <aside class="reservationPageAside">
+      <button id="paymentButton" class="payementBtn">Soumettre</button>
+         <div id="overlay" style="display: none;"></div>
+         <div id="spinner" style="display: none;"></div>
+         <div id="confirmationMessage" style="display: none;">
+         <p>Paiement accepté</p>
+         <p>Numéro de confirmation: 1234567890</p>
+      </div>
+  </aside>
+  
+</main>
+
+<!--  Footer -->
+
+<footer>
+        
+         <div class="socialLinksContainer">
+           <a href="https://www.facebook.com/" class="linkName">
+             <span class="footerLinks"><i class="fa-brands fa-facebook"></i></span>
+           </a>
+
+            <a href="https://twitter.com/" class="linkName">
+                <i class="fa-brands fa-square-x-twitter"></i>
+            </a>
+
+             <a href="https://www.instagram.com/" class="linkName">
+                <i class="fa-brands fa-square-instagram"></i>
+            </a>
+
+            <a href="https://www.youtube.com/" class="linkName">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+
+           <a href="https://www.linkedin.com/" class="linkName">
+            <i class="fa-brands fa-linkedin"></i>
+           </a>
+         </div>  
+
+       <div class="footerLegalContainer">
+         <a href="legal.html" class="legalLink">FAQ</a>
+          <a href="legal.html" class="legalLink">Mentions Légales</a>
+          <a href="legal.html" class="legalLink">Politique de confidentialité</a>
+         <a href="legal.html" class="legalLink">Conditions Générales de Vente</a>
+       </div>
+
+    </footer>
+
+   <script src="reservation.js"></script>
+</body> 

@@ -1,0 +1,196 @@
+/***********************************    RESERVATION PAGE  **********************************/
+@media only screen and (max-width:1500px) {
+                                           .waeverContainer {
+                                                             margin-left:-50px;
+                                                             }    
+
+                                           .formPersonalInfo {
+                                                              margin-left:30px;
+                                                              }
+
+                                           .payementBtn {
+                                                         margin-left:650px;
+                                                        }
+                                                       }
+
+@media only screen and (max-width:1400px) {
+                                           .waeverContainer {
+                                                             margin-left:-100px;
+                                                             }   
+
+                                           .payementBtn {
+                                                         margin-left:600px;
+                                                        }
+                                                       }
+
+@media only screen and (max-width:1300px) {
+                                           .waeverContainer {
+                                                             margin-left:-150px;
+                                                             }
+
+                                           .payementBtn {
+                                                         margin-left:550px;
+                                                        }
+                                                       }
+
+@media only screen and (max-width:1200px) {
+                                           .waeverContainer {
+                                                             margin-left:-200px;
+                                                            }
+
+                                           .payementBtn {
+                                                         margin-left:500px;
+                                                         }
+                                                        }
+
+@media only screen and (max-width:1100px) {
+                                           .waeverContainer {
+                                                             margin-left:-250px;
+                                                             }   
+
+                                           .payementBtn {
+                                                         margin-left:450px;
+                                                        }
+                                                       }
+
+@media only screen and (max-width:1000px) {
+                                           .waeverContainer {
+                                                             margin-left:-300px;
+                                                            }
+
+                                           .payementBtn {
+                                                         margin-left:400px;
+                                                        }
+                                                       } 
+
+@media only screen and (max-width:900px) {
+                                          .waeverContainer {
+                                                            margin-left:-350px;
+                                                            }
+
+                                          .payementBtn {
+                                                        margin-left:350px;
+                                                       }
+                                                      }
+
+@media only screen and (max-width:800px) { 
+                                           .reservationSection {
+                                                                display:flex; 
+                                                                flex-direction:column;
+                                                                }
+
+                                           .waeverContainer {
+                                                             margin-left:-400px;
+                                                             }
+
+                                           .formPersonalInfo {
+                                                              margin:15px 0px 15px 50px; 
+                                                              width:90%;
+                                                              }
+
+                                           .formCreditCardInfo {
+                                                                margin:15px 0px 0px 50px; 
+                                                                padding-bottom:15px;
+                                                                width:90%;}
+
+                                           .payementBtn {
+                                                         margin-left:300px;
+                                                         }
+                                                        }
+
+@media only screen and (max-width:700px) {
+                                           .waeverContainer {
+                                                             margin-left:-450px;
+                                                             }
+
+                                           .payementBtn {
+                                                         margin-left:250px;
+                                                        }
+                                                       }
+
+@media only screen and (max-width:600px) {
+                                           .waeverContainer {
+                                                             margin-left:-500px;
+                                                            }  
+
+                                           .formPersonalInfo {
+                                                              margin-left:40px;
+                                                              }
+
+                                           .formCreditCardInfo {
+                                                                margin-left:40px;
+                                                               }
+
+                                           .nameInputField, .emailInputField, .addressInputField,
+                                           .cityInputField, .zipcodeInputField, .cardNameInput,
+                                           .cardNumberInput, .cardExpDateInput, .cardExpYearInput,
+                                           .cardCodeInput {
+                                                           width:90%;
+                                                           margin-left:10px;
+                                                           }
+
+                                           .payementBtn {
+                                                         margin-left:200px;
+                                                        }
+                                                       }
+
+@media only screen and (max-width:500px) {
+                                           .waeverContainer {
+                                                             margin-left:-550px;
+                                                            }
+
+                                           .payementBtn {
+                                                         margin-left:150px;
+                                                        }
+                                                       }
+
+@media only screen and (max-width:400px) {
+                                           .waeverContainer {
+                                                             margin-left:-600px;
+                                                             }
+
+                                           .formPersonalInfo {
+                                                              margin-left:25px;
+                                                             }
+
+                                           .formCreditCardInfo {
+                                                                margin-left:25px;
+                                                               }
+
+                                           .nameInputField, .emailInputField, .addressInputField,
+                                           .cityInputField, .zipcodeInputField, .cardNameInput,
+                                           .cardNumberInput, .cardExpDateInput, .cardExpYearInput,
+                                           .cardCodeInput {
+                                                           width:85%; margin-left:5px;
+                                                           }
+
+                                           .payementBtn {
+                                                         margin-left:100px;
+                                                        }
+                                                       }
+
+@media only screen and (max-width:410px) {
+                                           .nameInputField, .emailInputField, .addressInputField,
+                                           .cityInputField, .zipcodeInputField, .cardNameInput,
+                                           .cardNumberInput, .cardExpDateInput, .cardExpYearInput,
+                                           .cardCodeInput {
+                                                           width:85%; margin-left:5px;
+                                                           }
+
+                                           .payementBtn {
+                                                         margin-left:90px;
+                                                         }
+                                                        }
+
+@media only screen and (max-width:360px) {
+                                          .waeverContainer {
+                                                            margin-left:-620px;
+                                                           }
+
+                                          .payementBtn {
+                                                        margin-left:70px;
+                                                       }
+                                                      }
+                                           
+
+
